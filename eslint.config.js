@@ -26,6 +26,9 @@ export default tseslint.config(
       '.worktrees/',
       '.delta/',
       '.agents/worktrees/',
+      // Local verification scratch (node scripts + a throwaway DSH home); it is
+      // gitignored, and linting it only reports its Node globals.
+      '.e2e-scratch/',
     ],
   },
 
