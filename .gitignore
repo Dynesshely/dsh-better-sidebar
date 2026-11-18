@@ -160,4 +160,4 @@ src/client/mermaid-frame-asset.generated.ts
 
 # local e2e / probe scratch (fork verification, never published)
 .e2e-scratch/
-
+.shot-home/
